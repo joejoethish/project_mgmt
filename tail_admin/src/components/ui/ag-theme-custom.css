@@ -1,0 +1,265 @@
+/* Custom AG Grid Theme - TailAdmin Style */
+/* This theme completely overrides AG Grid's default styling to match TailAdmin's BasicTableOne */
+
+.ag-theme-tailadmin {
+    /* Core Colors - Matching TailAdmin color palette */
+    --ag-foreground-color: #667085; /* gray-500 - main text color */
+    --ag-secondary-foreground-color: #98a2b3; /* gray-400 */
+    --ag-background-color: #ffffff;
+    --ag-header-foreground-color: #667085; /* gray-500 */
+    --ag-header-background-color: transparent; /* No background like BasicTableOne */
+    --ag-odd-row-background-color: #ffffff;
+    --ag-even-row-background-color: #ffffff;
+    
+    /* Border Colors */
+    --ag-border-color: #e4e7ec; /* gray-200 */
+    --ag-row-border-color: #f2f4f7; /* gray-100 - subtle row dividers */
+    --ag-header-column-separator-display: none;
+    --ag-header-column-resize-handle-display: none;
+    
+    /* Interactive Colors - Brand Blue */
+    --ag-input-focus-border-color: #465fff; /* brand-500 */
+    --ag-checkbox-checked-color: #465fff;
+    --ag-range-selection-border-color: #465fff;
+    --ag-selected-row-background-color: #f2f7ff; /* brand-25 */
+    
+    /* Hover States */
+    --ag-row-hover-color: #f9fafb; /* gray-50 */
+    
+    /* Typography - Outfit font like TailAdmin */
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    
+    /* Layout Dimensions */
+    --ag-header-height: 48px;
+    --ag-row-height: 56px;
+    --ag-cell-horizontal-padding: 20px;
+    --ag-grid-size: 4px;
+    
+    /* Remove all borders from wrapper */
+    --ag-wrapper-border-radius: 0;
+}
+
+/* Dark Mode */
+.dark .ag-theme-tailadmin {
+    --ag-foreground-color: #d0d5dd; /* gray-300 */
+    --ag-secondary-foreground-color: #98a2b3;
+    --ag-background-color: transparent;
+    --ag-header-foreground-color: #98a2b3; /* gray-400 */
+    --ag-header-background-color: transparent;
+    --ag-odd-row-background-color: transparent;
+    --ag-even-row-background-color: transparent;
+    --ag-border-color: rgba(255, 255, 255, 0.05);
+    --ag-row-border-color: rgba(255, 255, 255, 0.05);
+    --ag-row-hover-color: rgba(255, 255, 255, 0.03);
+    --ag-selected-row-background-color: rgba(70, 95, 255, 0.12);
+}
+
+/* ========================================
+   ROOT WRAPPER STYLING
+   ======================================== */
+.ag-theme-tailadmin .ag-root-wrapper {
+    border: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+}
+
+.ag-theme-tailadmin .ag-root-wrapper-body {
+    background: transparent !important;
+}
+
+.ag-theme-tailadmin .ag-root {
+    border: none !important;
+}
+
+/* ========================================
+   HEADER STYLING - Match BasicTableOne
+   ======================================== */
+.ag-theme-tailadmin .ag-header {
+    background: transparent !important;
+    border-bottom: 1px solid var(--ag-row-border-color) !important;
+    min-height: var(--ag-header-height) !important;
+}
+
+.ag-theme-tailadmin .ag-header-row {
+    background: transparent !important;
+}
+
+.ag-theme-tailadmin .ag-header-cell {
+    padding: 12px 20px !important;
+    border: none !important;
+    background: transparent !important;
+}
+
+.ag-theme-tailadmin .ag-header-cell-label {
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    color: #667085 !important; /* gray-500 */
+    text-transform: none !important;
+}
+
+.ag-theme-tailadmin .ag-header-cell-text {
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    color: #667085 !important;
+}
+
+.dark .ag-theme-tailadmin .ag-header-cell-label,
+.dark .ag-theme-tailadmin .ag-header-cell-text {
+    color: #98a2b3 !important; /* gray-400 */
+}
+
+/* Hide filter and sort icons by default */
+.ag-theme-tailadmin .ag-header-icon {
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.ag-theme-tailadmin .ag-header-cell:hover .ag-header-icon {
+    opacity: 0.6;
+}
+
+/* ========================================
+   ROW & CELL STYLING
+   ======================================== */
+.ag-theme-tailadmin .ag-row {
+    border-bottom: 1px solid var(--ag-row-border-color) !important;
+    background: transparent !important;
+}
+
+.ag-theme-tailadmin .ag-row:hover {
+    background: var(--ag-row-hover-color) !important;
+}
+
+.ag-theme-tailadmin .ag-row-selected {
+    background: var(--ag-selected-row-background-color) !important;
+}
+
+.ag-theme-tailadmin .ag-cell {
+    padding: 16px 20px !important;
+    border: none !important;
+    display: flex !important;
+    align-items: center !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #667085 !important; /* gray-500 */
+}
+
+.dark .ag-theme-tailadmin .ag-cell {
+    color: #d0d5dd !important; /* gray-300 */
+}
+
+.ag-theme-tailadmin .ag-cell-value {
+    font-size: 14px !important;
+    color: inherit !important;
+}
+
+/* First column name styling - like TailAdmin user column */
+.ag-theme-tailadmin .ag-cell[col-id="name"] {
+    color: #1d2939 !important; /* gray-800 - darker for primary text */
+    font-weight: 500 !important;
+}
+
+.dark .ag-theme-tailadmin .ag-cell[col-id="name"] {
+    color: #f2f4f7 !important; /* gray-100 */
+}
+
+/* ========================================
+   CHECKBOX STYLING - Brand Color
+   ======================================== */
+.ag-theme-tailadmin .ag-checkbox-input-wrapper {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+.ag-theme-tailadmin .ag-checkbox-input-wrapper::after {
+    color: #465fff !important; /* brand-500 */
+}
+
+.ag-theme-tailadmin .ag-checkbox-input-wrapper.ag-checked {
+    background: #465fff !important;
+    border-color: #465fff !important;
+}
+
+.ag-theme-tailadmin .ag-checkbox-input-wrapper.ag-checked::after {
+    color: #ffffff !important;
+}
+
+/* ========================================
+   PAGINATION STYLING
+   ======================================== */
+.ag-theme-tailadmin .ag-paging-panel {
+    border-top: 1px solid var(--ag-row-border-color) !important;
+    padding: 12px 20px !important;
+    color: #667085 !important;
+    font-size: 14px !important;
+    background: transparent !important;
+}
+
+.dark .ag-theme-tailadmin .ag-paging-panel {
+    color: #98a2b3 !important;
+}
+
+.ag-theme-tailadmin .ag-paging-button {
+    color: #667085 !important;
+    cursor: pointer;
+}
+
+.ag-theme-tailadmin .ag-paging-button:hover {
+    color: #465fff !important;
+}
+
+/* ========================================
+   SCROLLBAR STYLING
+   ======================================== */
+.ag-theme-tailadmin ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.ag-theme-tailadmin ::-webkit-scrollbar-track {
+    background: #f2f4f7;
+    border-radius: 3px;
+}
+
+.ag-theme-tailadmin ::-webkit-scrollbar-thumb {
+    background: #d0d5dd;
+    border-radius: 3px;
+}
+
+.ag-theme-tailadmin ::-webkit-scrollbar-thumb:hover {
+    background: #98a2b3;
+}
+
+.dark .ag-theme-tailadmin ::-webkit-scrollbar-track {
+    background: #344054;
+}
+
+.dark .ag-theme-tailadmin ::-webkit-scrollbar-thumb {
+    background: #475467;
+}
+
+/* ========================================
+   NO ROWS OVERLAY
+   ======================================== */
+.ag-theme-tailadmin .ag-overlay-no-rows-center {
+    color: #667085 !important;
+    font-size: 14px !important;
+}
+
+/* ========================================
+   LOADING OVERLAY
+   ======================================== */
+.ag-theme-tailadmin .ag-overlay-loading-center {
+    background: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 8px !important;
+    padding: 16px 24px !important;
+    color: #667085 !important;
+}
+
+.dark .ag-theme-tailadmin .ag-overlay-loading-center {
+    background: rgba(26, 34, 49, 0.9) !important;
+    color: #d0d5dd !important;
+}

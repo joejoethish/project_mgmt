@@ -1,0 +1,21 @@
+
+> tailadmin-react@2.0.2 build
+> tsc -b && vite build
+
+[36mvite v6.1.0 [32mbuilding for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 11 modules transformed.
+x Build failed in 4.68s
+error during build:
+[vite:css] [postcss] Cannot apply unknown utility class: !
+file: D:/my_projects/pr_mgmt/tail_admin/src/index.css:undefined:NaN
+    at onInvalidCandidate (D:\my_projects\pr_mgmt\tail_admin\node_modules\tailwindcss\dist\lib.js:17:297)
+    at ne (D:\my_projects\pr_mgmt\tail_admin\node_modules\tailwindcss\dist\lib.js:12:115576)
+    at D:\my_projects\pr_mgmt\tail_admin\node_modules\tailwindcss\dist\lib.js:17:260
+    at _ (D:\my_projects\pr_mgmt\tail_admin\node_modules\tailwindcss\dist\lib.js:5:1652)
+    at _ (D:\my_projects\pr_mgmt\tail_admin\node_modules\tailwindcss\dist\lib.js:5:1930)
+    at $e (D:\my_projects\pr_mgmt\tail_admin\node_modules\tailwindcss\dist\lib.js:17:150)
+    at Mr (D:\my_projects\pr_mgmt\tail_admin\node_modules\tailwindcss\dist\lib.js:33:708)
+    at async Wr (D:\my_projects\pr_mgmt\tail_admin\node_modules\tailwindcss\dist\lib.js:33:995)
+    at async ot (D:\my_projects\pr_mgmt\tail_admin\node_modules\@tailwindcss\node\dist\index.js:10:3272)
+    at async p (D:\my_projects\pr_mgmt\tail_admin\node_modules\@tailwindcss\postcss\dist\index.js:8:3242)

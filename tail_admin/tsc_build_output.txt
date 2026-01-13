@@ -1,0 +1,97 @@
+src/components/auth/ProtectedRoute.tsx(6,13): error TS6133: 'isAuthenticated' is declared but its value is never read.
+src/components/gamification/GamificationProfile.tsx(3,10): error TS6133: 'Award' is declared but its value is never read.
+src/components/gamification/GamificationProfile.tsx(3,34): error TS6133: 'Trophy' is declared but its value is never read.
+src/components/gamification/GamificationProfile.tsx(3,62): error TS6133: 'Target' is declared but its value is never read.
+src/components/gamification/GamificationProfile.tsx(3,77): error TS6133: 'GitCommit' is declared but its value is never read.
+src/components/gamification/GamificationProfile.tsx(3,102): error TS6133: 'BarChart3' is declared but its value is never read.
+src/components/gamification/GamificationProfile.tsx(3,113): error TS6133: 'Calendar' is declared but its value is never read.
+src/components/gamification/GamificationProfile.tsx(271,56): error TS6133: 'idx' is declared but its value is never read.
+src/components/hr/SetRoleModal.tsx(2,1): error TS6133: 'Modal' is declared but its value is never read.
+src/components/hr/SetRoleModal.tsx(2,8): error TS2613: Module '"D:/my_projects/pr_mgmt/tail_admin/src/components/ui/modal/index"' has no default export. Did you mean to use 'import { Modal } from "D:/my_projects/pr_mgmt/tail_admin/src/components/ui/modal/index"' instead?
+src/components/hr/SetRoleModal.tsx(35,16): error TS6133: 'err' is declared but its value is never read.
+src/components/reporting/DatasetERDView.tsx(1,44): error TS6133: 'useMemo' is declared but its value is never read.
+src/components/reporting/DatasetERDView.tsx(138,42): error TS6133: 'modelKey' is declared but its value is never read.
+src/components/tables/AdvancedTable.tsx(1186,48): error TS6133: 'col' is declared but its value is never read.
+src/components/tables/AdvancedTable.tsx(1198,50): error TS6133: 'col' is declared but its value is never read.
+src/components/tables/AdvancedTable.tsx(1230,18): error TS2322: Type '{ children: (false | Element | null)[]; ref: RefObject<HTMLTableElement | null>; }' is not assignable to type 'IntrinsicAttributes & TableProps'.
+  Property 'ref' does not exist on type 'IntrinsicAttributes & TableProps'.
+src/components/ui/DataGrid.tsx(14,18): error TS2304: Cannot find name 'ColDef'.
+src/components/ui/DataGrid.tsx(49,12): error TS6133: 'gridColumnApi' is declared but its value is never read.
+src/components/ui/DataGrid.tsx(60,19): error TS2304: Cannot find name 'ColDef'.
+src/layout/AppSidebar.tsx(12,3): error TS6133: 'PageIcon' is declared but its value is never read.
+src/layout/AppSidebar.tsx(183,48): error TS6133: 'setIsHovered' is declared but its value is never read.
+src/layout/AppSidebar.tsx(183,62): error TS2339: Property 'setSidebarOpen' does not exist on type 'SidebarContextType'.
+src/layout/AppSidebar.tsx(183,78): error TS2339: Property 'isMobile' does not exist on type 'SidebarContextType'.
+src/layout/AppSidebar.tsx(195,9): error TS6133: 'appName' is declared but its value is never read.
+src/layout/SidebarWidget.tsx(2,10): error TS6133: 'Mail' is declared but its value is never read.
+src/pages/AuthPages/AcceptInvite.tsx(72,29): error TS2322: Type '{ children: Element; title: string; subtitle: string; }' is not assignable to type 'IntrinsicAttributes & { children: ReactNode; }'.
+  Property 'title' does not exist on type 'IntrinsicAttributes & { children: ReactNode; }'.
+src/pages/AuthPages/AcceptInvite.tsx(82,29): error TS2322: Type '{ children: Element[]; title: string; subtitle: string; }' is not assignable to type 'IntrinsicAttributes & { children: ReactNode; }'.
+  Property 'title' does not exist on type 'IntrinsicAttributes & { children: ReactNode; }'.
+src/pages/AuthPages/AcceptInvite.tsx(95,13): error TS2322: Type '{ children: Element; title: string; subtitle: string; }' is not assignable to type 'IntrinsicAttributes & { children: ReactNode; }'.
+  Property 'title' does not exist on type 'IntrinsicAttributes & { children: ReactNode; }'.
+src/pages/AuthPages/AcceptInvite.tsx(105,25): error TS2322: Type '{ id: string; value: string; onChange: (e: ChangeEvent<HTMLInputElement>) => void; required: true; placeholder: string; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'required' does not exist on type 'IntrinsicAttributes & InputProps'.
+src/pages/AuthPages/AcceptInvite.tsx(117,25): error TS2322: Type '{ id: string; type: string; value: string; onChange: (e: ChangeEvent<HTMLInputElement>) => void; required: true; placeholder: string; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'required' does not exist on type 'IntrinsicAttributes & InputProps'.
+src/pages/AuthPages/AcceptInvite.tsx(129,25): error TS2322: Type '{ id: string; type: string; value: string; onChange: (e: ChangeEvent<HTMLInputElement>) => void; required: true; placeholder: string; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'required' does not exist on type 'IntrinsicAttributes & InputProps'.
+src/pages/AuthPages/AcceptInvite.tsx(134,25): error TS2322: Type '{ children: string; type: string; className: string; disabled: boolean; }' is not assignable to type 'IntrinsicAttributes & ButtonProps'.
+  Property 'type' does not exist on type 'IntrinsicAttributes & ButtonProps'.
+src/pages/AuthPages/ForgotPassword.tsx(81,23): error TS2322: Type '{ type: string; placeholder: string; value: string; onChange: (e: ChangeEvent<HTMLInputElement>) => void; required: true; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'required' does not exist on type 'IntrinsicAttributes & InputProps'.
+src/pages/AuthPages/ResetPassword.tsx(120,23): error TS2322: Type '{ type: string; placeholder: string; value: string; onChange: (e: ChangeEvent<HTMLInputElement>) => void; required: true; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'required' does not exist on type 'IntrinsicAttributes & InputProps'.
+src/pages/AuthPages/ResetPassword.tsx(144,21): error TS2322: Type '{ type: string; placeholder: string; value: string; onChange: (e: ChangeEvent<HTMLInputElement>) => void; required: true; }' is not assignable to type 'IntrinsicAttributes & InputProps'.
+  Property 'required' does not exist on type 'IntrinsicAttributes & InputProps'.
+src/pages/EditProfilePage.tsx(1,27): error TS6133: 'useEffect' is declared but its value is never read.
+src/pages/gamification/CreditRulesPage.tsx(3,10): error TS6133: 'Settings' is declared but its value is never read.
+src/pages/github/PullRequestList.tsx(20,17): error TS6133: 'prs' is declared but its value is never read.
+src/pages/github/PullRequestList.tsx(25,9): error TS6133: 'columns' is declared but its value is never read.
+src/pages/github/PullRequestList.tsx(32,12): error TS2322: Type 'unknown' is not assignable to type 'ReactNode'.
+src/pages/github/PullRequestList.tsx(43,13): error TS2322: Type 'unknown' is not assignable to type 'ReactNode'.
+src/pages/github/PullRequestList.tsx(53,59): error TS2322: Type 'unknown' is not assignable to type 'ReactNode'.
+src/pages/github/PullRequestList.tsx(83,11): error TS2322: Type 'unknown' is not assignable to type 'ReactNode'.
+src/pages/github/PullRequestList.tsx(129,22): error TS2344: Type 'PullRequest' does not satisfy the constraint 'Record<string, unknown>'.
+  Index signature for type 'string' is missing in type 'PullRequest'.
+src/pages/github/RepositoryList.tsx(217,16): error TS6133: 'value' is declared but its value is never read.
+src/pages/hr/DepartmentList.tsx(57,37): error TS2503: Cannot find namespace 'JSX'.
+src/pages/hr/EmployeeList.tsx(260,17): error TS2322: Type 'Employee[]' is not assignable to type 'Record<string, unknown>[]'.
+  Type 'Employee' is not assignable to type 'Record<string, unknown>'.
+    Index signature for type 'string' is missing in type 'Employee'.
+src/pages/hr/EmployeeList.tsx(261,17): error TS2322: Type 'AdvancedTableColumn<Employee>[]' is not assignable to type 'AdvancedTableColumn<Record<string, unknown>>[]'.
+  Type 'AdvancedTableColumn<Employee>' is not assignable to type 'AdvancedTableColumn<Record<string, unknown>>'.
+    Type 'Record<string, unknown>' is missing the following properties from type 'Employee': id, employee_code, first_name, last_name, and 17 more.
+src/pages/hr/EmployeeList.tsx(268,17): error TS2322: Type 'BulkAction<Employee>[]' is not assignable to type 'BulkAction<Record<string, unknown>>[]'.
+  Type 'BulkAction<Employee>' is not assignable to type 'BulkAction<Record<string, unknown>>'.
+    Type 'Record<string, unknown>' is missing the following properties from type 'Employee': id, employee_code, first_name, last_name, and 17 more.
+src/pages/hr/EmployeeList.tsx(269,17): error TS2322: Type 'RowAction<Employee>[]' is not assignable to type 'RowAction<Record<string, unknown>>[]'.
+  Type 'RowAction<Employee>' is not assignable to type 'RowAction<Record<string, unknown>>'.
+    Type 'Record<string, unknown>' is missing the following properties from type 'Employee': id, employee_code, first_name, last_name, and 17 more.
+src/pages/pm/IterationBoard.tsx(114,35): error TS2339: Property 'priority_id' does not exist on type '{ task_id: string; title: string; description: string; status_id: string; status_name: string; priority_name: string; priority_color?: string | undefined; assigned_to: { id: string; name: string; avatar: string | null; initials: string; } | null; }'.
+src/pages/pm/KanbanBoard.tsx(113,65): error TS2339: Property 'due_date' does not exist on type 'Task'.
+src/pages/pm/ProjectDashboard.tsx(63,11): error TS6133: 'pendingTasks' is declared but its value is never read.
+src/pages/pm/RolesList.tsx(2,10): error TS6133: 'Link' is declared but its value is never read.
+src/pages/pm/SprintsList.tsx(2,10): error TS6133: 'Link' is declared but its value is never read.
+src/pages/pm/TeamsList.tsx(2,10): error TS6133: 'Link' is declared but its value is never read.
+src/pages/pm/TimesheetGrid.tsx(14,10): error TS6133: 'totals' is declared but its value is never read.
+src/pages/pm/TimesheetHeader.tsx(1,1): error TS6133: 'useState' is declared but its value is never read.
+src/pages/pm/TimesheetHeader.tsx(2,1): error TS6133: 'useQuery' is declared but its value is never read.
+src/pages/pm/TimesheetHeader.tsx(3,1): error TS6133: 'axios' is declared but its value is never read.
+src/pages/pm/WorkflowBoard.tsx(2,1): error TS6133: 'React' is declared but its value is never read.
+src/pages/pm/WorkflowsList.tsx(2,10): error TS6133: 'Link' is declared but its value is never read.
+src/pages/reporting/DatasetBuilder.tsx(54,9): error TS6133: 'queryClient' is declared but its value is never read.
+src/pages/reporting/DatasetBuilder.tsx(334,9): error TS6133: 'selectAllModels' is declared but its value is never read.
+src/pages/reporting/DatasetERDPage.tsx(226,42): error TS6133: 'modelKey' is declared but its value is never read.
+src/pages/reporting/DatasetERDPage.tsx(312,17): error TS6133: 'newEdges' is declared but its value is never read.
+src/pages/reporting/ReportViewer.tsx(150,42): error TS2304: Cannot find name 'FilterCondition'.
+src/pages/reporting/ReportViewer.tsx(167,29): error TS2304: Cannot find name 'FilterCondition'.
+src/pages/reporting/ReportViewer.tsx(190,42): error TS2304: Cannot find name 'Schema'.
+src/pages/reporting/ReportViewer.tsx(200,34): error TS7006: Parameter 'f' implicitly has an 'any' type.
+src/pages/Settings/PermissionMatrix.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/pages/Settings/PermissionMatrix.tsx(3,44): error TS6133: 'X' is declared but its value is never read.
+src/pages/SettingsPage.tsx(2,10): error TS6133: 'Settings' is declared but its value is never read.
+src/pages/tags/TagsList.tsx(250,69): error TS2339: Property 'category_icon' does not exist on type 'Tag'.
+src/pages/tags/TagsList.tsx(251,46): error TS2339: Property 'category_label' does not exist on type 'Tag'.
+src/pages/ZohoIntegrationPage.tsx(242,9): error TS6133: 'resetSyncProgress' is declared but its value is never read.
+src/pages/ZohoIntegrationPage.tsx(470,97): error TS2554: Expected 0-1 arguments, but got 2.

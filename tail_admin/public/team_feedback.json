@@ -1,0 +1,145 @@
+{
+    "title": "Team Improvement Feedback (Anonymous)",
+    "description": "Your responses are 100% anonymous. The goal of this form is to understand what slows us down, what frustrates us, what helps us work well, and what changes would improve our overall workflow. Please answer honestly — positive or negative — without worrying about identity.",
+    "sections": [
+        {
+            "title": "Daily Work Experience",
+            "columns": 2,
+            "questions": [
+                {
+                    "id": "q1",
+                    "type": "paragraph",
+                    "title": "1) What part of your daily work feels unnecessarily difficult or slow?",
+                    "placeholder": "e.g., waiting for builds, unclear requirements, navigating legacy code...",
+                    "columnSpan": 1
+                },
+                {
+                    "id": "q2",
+                    "type": "paragraph",
+                    "title": "2) When you start a new task, what usually feels unclear or confusing?",
+                    "placeholder": "e.g., acceptance criteria, dependency versions, API contracts...",
+                    "columnSpan": 1
+                },
+                {
+                    "id": "q3",
+                    "type": "paragraph",
+                    "title": "3) What recent situation made your work frustrating?",
+                    "placeholder": "Describe a specific incident if possible...",
+                    "columnSpan": 2
+                }
+            ]
+        },
+        {
+            "title": "Team Process & Workflow",
+            "columns": 3,
+            "questions": [
+                {
+                    "id": "q4",
+                    "type": "short",
+                    "title": "4) What is one thing the team should STOP doing?",
+                    "placeholder": "e.g., excessively long daily standups, manual deployments...",
+                    "columnSpan": 1
+                },
+                {
+                    "id": "q5",
+                    "type": "short",
+                    "title": "5) What is one thing the team should START doing?",
+                    "placeholder": "e.g., more pair programming, automated testing, code freeze...",
+                    "columnSpan": 1
+                },
+                {
+                    "id": "q6",
+                    "type": "short",
+                    "title": "6) What is one thing we are doing well and should CONTINUE doing?",
+                    "placeholder": "e.g., code reviews, demo sessions...",
+                    "columnSpan": 1
+                },
+                {
+                    "id": "q7",
+                    "type": "rating",
+                    "title": "7) How confident do you feel while working on tasks?",
+                    "options": [
+                        "1 - Rarely confident",
+                        "2 - Often unsure",
+                        "3 - sometimes unsure",
+                        "4 - Mostly confident",
+                        "5 - Very confident"
+                    ],
+                    "columnSpan": 3
+                }
+            ]
+        },
+        {
+            "title": "Collaboration & Communication",
+            "columns": 2,
+            "questions": [
+                {
+                    "id": "q8",
+                    "type": "short",
+                    "title": "8) What tool, automation, or documentation would save you the most time?",
+                    "placeholder": "e.g., API documentation, automated linter, CI/CD pipeline...",
+                    "columnSpan": 2
+                },
+                {
+                    "id": "q9",
+                    "type": "paragraph",
+                    "title": "9) What repeated technical or process issue wastes your time most often?",
+                    "placeholder": "e.g., resolving merge conflicts, environment setup...",
+                    "columnSpan": 1
+                },
+                {
+                    "id": "q10",
+                    "type": "paragraph",
+                    "title": "10) How can we improve communication inside the team?",
+                    "placeholder": "e.g., more open discussions, clear channels for updates...",
+                    "columnSpan": 1
+                },
+                {
+                    "id": "q11",
+                    "type": "paragraph",
+                    "title": "11) How can we improve collaboration between core development and the support/hotfix team?",
+                    "placeholder": "e.g., shared knowledge base, regular sync meetings...",
+                    "columnSpan": 2
+                }
+            ]
+        },
+        {
+            "title": "Personal Growth & Leadership Expectation",
+            "columns": 2,
+            "questions": [
+                {
+                    "id": "q12",
+                    "type": "short",
+                    "title": "12) What skill do you personally want to learn or improve?",
+                    "placeholder": "e.g., Docker, Kubernetes, React, System Design...",
+                    "columnSpan": 2
+                },
+                {
+                    "id": "q13",
+                    "type": "paragraph",
+                    "title": "13) What kind of support or guidance helps you perform better?",
+                    "placeholder": "e.g., mentorship, code reviews, pair programming...",
+                    "columnSpan": 1
+                },
+                {
+                    "id": "q14",
+                    "type": "paragraph",
+                    "title": "14) If you were Team Lead for one week, what would you change first?",
+                    "placeholder": "Be honest and creative!",
+                    "columnSpan": 1
+                }
+            ]
+        },
+        {
+            "title": "Final Thoughts",
+            "questions": [
+                {
+                    "id": "q15",
+                    "type": "paragraph",
+                    "title": "15) Any final thoughts or suggestions you want to share?",
+                    "placeholder": "Anything else on your mind?"
+                }
+            ]
+        }
+    ]
+}
